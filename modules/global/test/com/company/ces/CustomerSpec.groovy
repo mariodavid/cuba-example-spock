@@ -1,6 +1,8 @@
 package com.company.ces
 
-class CustomerSpec extends spock.lang.Specification {
+import spock.lang.Specification
+
+class CustomerSpec extends Specification {
 
     def 'A customer is good if there a at least one related order'() {
 
