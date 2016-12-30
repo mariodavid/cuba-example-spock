@@ -7,7 +7,7 @@ class Customer {
     List<Order> orders = []
 
     boolean isGoodCustomer() {
-        orders.size() > 0
+        orders?.size() > 0
     }
 
 }
